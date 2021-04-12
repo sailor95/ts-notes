@@ -1,6 +1,6 @@
 import React, { ChangeEvent, FormEvent, useState } from 'react';
 
-const InputComp = () => {
+const FormExp = () => {
   const [inputVal, setInputVal] = useState('');
 
   // NOTE: Form onSubmit event
@@ -20,4 +20,4 @@ const InputComp = () => {
   );
 };
 
-export default InputComp;
+export default FormExp;
